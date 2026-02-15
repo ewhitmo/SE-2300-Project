@@ -4,7 +4,7 @@ Instructions for the To-Do List Application.
 
 The To-Do List Application utilizes a text file named tasks.txt to store and retrieve task information. Please ensure that you do not already have a file named tasks.txt unless you are okay with it being overwritten.
 
-Run the application by pressing the "Play" button to run the program. Upon running, you will be greeted by the program and will be presented with a menu.  
+Run the application by pressing the "Play" or "Run" button to run the program. Upon running, you will be greeted by the program and will be presented with a menu.  
 Enter the number 1 if you wish to add a new task item.  
 Enter the number 2 if you wish to update an existing task item. This means the user may overwrite an existing task corresponding to a task number. You may add additional details, a date, or replace it with a new task entirely.  
 Enter the number 3 if you wish to mark a task as completed. Doing so will keep the task in the list but it will now be shown with a green checkmark next to it.  
