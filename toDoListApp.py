@@ -28,7 +28,7 @@ class toDoListApp:
 
     '''Allows the user to update task information (the user may overwrite the selected task to add details, a date,
     or a new task entirely). Variable taskNumToUpdate is used to ensure user input is valid, and to update the existing 
-    index. If valid, the variable newTask is used to replace the existing task in the tasksList'''
+    index (taskNumToUpdate - 1). If valid, the variable newTask is used to replace the existing task in the tasksList'''
     def updateTask(self):
         if not self.tasksList:                # Ensures the taskList is non-empty
             print("No items are in the list.")
@@ -51,7 +51,7 @@ class toDoListApp:
 
     '''Allows the user to mark a task as complete. The task will remain in the list with a checkmark next to it.
     Variable taskNumToMarkComplete is used to ensure user input is valid, and to add a checkmark next to the task
-    using the index.'''
+    using the index (taskNumToMarkComplete - 1).'''
     def markTaskCompleted(self):
         if not self.tasksList:          # Ensures the taskList is non-empty
             print("No items are in the list.")
@@ -69,7 +69,7 @@ class toDoListApp:
                 print("Please enter a valid number.")
 
     '''Lists all tasks from the tasksList and then the user selects the task number they want to delete. Variable
-    taskToDelete is used to ensure user input is valid, and to delete the task item using the index.'''
+    taskToDelete is used to ensure user input is valid, and to delete the task item using the index (taskToDelete - 1).'''
     def deleteTask(self):
         if not self.tasksList:              # Ensures the taskList is non-empty
             print("No items are in the list.")
