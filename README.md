@@ -12,4 +12,6 @@ Enter the number 4 if you wish to delete an existing task from the task list.
 Enter the number 5 if you wish to list all existing tasks that are currently in the list (including tasks marked as complete).  
 Enter the number 6 to exit the program.  
   
-Exiting the program will prompt the application to save all task information into the tasks.txt text file for it to be loaded again upon re-running the program. This ensures that tasks are saved between sessions.
+Exiting the program will prompt the application to save all task information into the tasks.txt text file for it to be loaded again upon re-running the program. This ensures that tasks are saved between sessions.  
+
+The application was thoroughly tested, including edge cases and boundary conditions (ensuring the user cannot enter an empty string or a non-numeric input, ensuring that the number entered was a valid task number, ensuring the tasks list is not empty upon calling certain functions, and ensuring that the user has selected a valid menu option). Many measures have been made to ensure that error handling is implemented appropriately, such as outputting various specific statements when the user enters non-valid data.
